@@ -1,13 +1,15 @@
-[gd_scene format=3 uid="uid://cfsciko14w4ju"]
+[gd_scene format=3]
 
-[ext_resource type="Texture2D" uid="uid://1ahtq4qjkfs5" path="res://assets/Board BG.jpeg" id="1_lmhrn"]
-[ext_resource type="Script" uid="uid://cgnc10rpo27ie" path="res://scripts/BoardNode.gd" id="2_pnm0s"]
+[ext_resource type="Texture2D" path="res://assets/Board New 2.png" id="1_lmhrn"]
+[ext_resource type="Script" path="res://scripts/BoardNode.gd" id="2_pnm0s"]
 
 [node name="MainBoard" type="Node2D" unique_id=356345126]
+metadata/scene_file_path = "res://scenes/MainBoard.tscn"
 
 [node name="BoardBackground" type="Sprite2D" parent="." unique_id=674835067]
 texture_filter = 2
 position = Vector2(540, 540)
+scale = Vector2(0.5263672, 0.524414)
 texture = ExtResource("1_lmhrn")
 
 [node name="BoardNodes" type="Node2D" parent="." unique_id=1964501668]
@@ -20,7 +22,7 @@ script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_1" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1545759704]
-position = Vector2(917, 860)
+position = Vector2(932, 871)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
@@ -30,12 +32,12 @@ script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_3" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1126072254]
-position = Vector2(914, 701)
+position = Vector2(936, 708)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_4" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=17341530]
-position = Vector2(914, 625)
+position = Vector2(934, 635)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
