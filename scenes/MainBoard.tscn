@@ -1,65 +1,251 @@
-[gd_scene format=3]
+[gd_scene format=3 uid="uid://cx60bwh4vp3ja"]
 
-[ext_resource type="Texture2D" path="res://assets/Board New 2.png" id="1_lmhrn"]
-[ext_resource type="Script" path="res://scripts/BoardNode.gd" id="2_pnm0s"]
+[ext_resource type="Texture2D" uid="uid://dpcxsurvtumns" path="res://assets/Board New 2.png" id="1_lmhrn"]
+[ext_resource type="Script" uid="uid://cgnc10rpo27ie" path="res://scripts/BoardNode.gd" id="2_pnm0s"]
 
-[node name="MainBoard" type="Node2D" unique_id=356345126]
+[node name="_Node2D_26" type="Node2D" unique_id=356345126]
+position = Vector2(0, 28)
+metadata/_tc_uuid = "1239899032870731498"
 metadata/scene_file_path = "res://scenes/MainBoard.tscn"
 
-[node name="BoardBackground" type="Sprite2D" parent="." unique_id=674835067]
-texture_filter = 2
-position = Vector2(782, 782)
-scale = Vector2(0.7636719, 0.7636719)
-texture = ExtResource("1_lmhrn")
-
 [node name="BoardNodes" type="Node2D" parent="." unique_id=1964501668]
+metadata/_tc_uuid = "3917910967649452419"
 
 [node name="MonopolyNodes" type="Node2D" parent="BoardNodes" unique_id=207980008]
+position = Vector2(0, -47)
+metadata/_tc_uuid = "790371524074860306"
 
 [node name="Node_0" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1139784449]
-position = Vector2(931, 931)
+position = Vector2(960, 976)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "3288837205663674554"
+
+[node name="Node_26" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=617103458]
+position = Vector2(858, 987)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "4386812131640740085"
+
+[node name="Node_31" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1014706001]
+position = Vector2(779, 989)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "2995973649182881475"
+
+[node name="Node_34" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1992911242]
+position = Vector2(698, 991)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "6343411219490125456"
+
+[node name="Node_42" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=507305395]
+position = Vector2(380, 992)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "1692750153746355523"
+metadata/_edit_lock_ = true
 
 [node name="Node_1" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1545759704]
-position = Vector2(917, 860)
+position = Vector2(969, 880)
 script = ExtResource("2_pnm0s")
-property_name = "Rajasuva Yajna"
+node_id = 1
+property_name = "Gandhara "
+metadata/_tc_uuid = "2412338129982512514"
 
 [node name="Node_2" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1118745797]
-position = Vector2(948, 782)
+position = Vector2(970, 799)
 script = ExtResource("2_pnm0s")
-property_name = "Rajasuva Yajna"
+property_name = "Sindhu"
+metadata/_tc_uuid = "6961669941051631768"
 
 [node name="Node_3" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1126072254]
-position = Vector2(914, 701)
+position = Vector2(968, 718)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "2514574991514496479"
 
 [node name="Node_4" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=17341530]
-position = Vector2(914, 625)
+position = Vector2(914, 646)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "423163176256666924"
 
 [node name="Node_5" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=911046556]
-position = Vector2(905, 539)
+position = Vector2(906, 561)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "5977498434270391557"
 
 [node name="Node_6" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1092582233]
-position = Vector2(914, 454)
+position = Vector2(969, 481)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "3416604761018231827"
 
-[node name="Node_7" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=547195179]
-position = Vector2(965, 381)
+[node name="Node_9" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1810969143]
+position = Vector2(973, 400)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "4805013747169626545"
+
+[node name="Node_11" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=2076188530]
+position = Vector2(972, 322)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "6226726803354808955"
+
+[node name="Node_12" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1684101840]
+position = Vector2(970, 242)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "3153992706522738260"
+
+[node name="Node_13" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=956893384]
+position = Vector2(962, 143)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "3979987305537597002"
+
+[node name="Node_14" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=485107415]
+position = Vector2(862, 136)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "6413481530872504895"
+
+[node name="Node_15" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=717866502]
+position = Vector2(780, 135)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "5192125108335002774"
+
+[node name="Node_16" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1614938360]
+position = Vector2(699, 133)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "6032096785892259570"
+
+[node name="Node_17" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1344445069]
+position = Vector2(621, 130)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "3180641924187298976"
+
+[node name="Node_18" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=171481898]
+position = Vector2(540, 197)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "4773665466529389709"
+
+[node name="Node_19" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=867574127]
+position = Vector2(460, 134)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+metadata/_tc_uuid = "7040148102765969109"
+
+[node name="Node_20" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=134565829]
+position = Vector2(383, 130)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "6465801894199247882"
+
+[node name="Node_21" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=2001146496]
+position = Vector2(302, 129)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "3711057857119467219"
+
+[node name="Node_22" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=52989778]
+position = Vector2(226, 127)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "8545560657042637967"
+
+[node name="Node_23" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1956547846]
+position = Vector2(119, 141)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "7734073356097659088"
+
+[node name="Node_24" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1472260960]
+position = Vector2(103, 240)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "5754589002244887991"
+
+[node name="Node_25" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1160945552]
+position = Vector2(99, 320)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "7786535824192085651"
+
+[node name="Node_27" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=975070292]
+position = Vector2(101, 403)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "8931089768000812935"
+
+[node name="Node_28" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1570938955]
+position = Vector2(104, 478)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "2624421879166718812"
+
+[node name="Node_29" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=174953078]
+position = Vector2(175, 561)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "3180043383250503151"
+
+[node name="Node_30" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1337983281]
+position = Vector2(104, 637)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "8709372690927824387"
+
+[node name="Node_32" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=904914275]
+position = Vector2(108, 719)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "6531380941779197329"
+
+[node name="Node_33" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=656518356]
+position = Vector2(111, 810)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "8182944265208480742"
+
+[node name="Node_35" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1175371155]
+position = Vector2(111, 881)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "6848133432277243550"
+
+[node name="Node_37" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=598732038]
+position = Vector2(119, 983)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "6339430132581068951"
+
+[node name="Node_43" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=528149205]
+position = Vector2(296, 993)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "2400856725008863919"
+
+[node name="Node_45" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1477451913]
+position = Vector2(218, 996)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "8288124872900613248"
+
+[node name="Node_46" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=827745148]
+position = Vector2(458, 992)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "2335425043964487793"
+
+[node name="Node_47" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1363075420]
+position = Vector2(540, 913)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "4920222225538086888"
+
+[node name="Node_49" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1801946807]
+position = Vector2(620, 992)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "7999956557436597487"
+
+[node name="Node_36" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1036532277]
+position = Vector2(110, 803)
+script = ExtResource("2_pnm0s")
+metadata/_tc_uuid = "7467496799578261739"
 
 [node name="LudoNodes" type="Node2D" parent="BoardNodes" unique_id=316801073]
 visible = false
+metadata/_tc_uuid = "7752967579995863019"
 
 [node name="UI_Layer" type="CanvasLayer" parent="." unique_id=711087732]
+metadata/_tc_uuid = "101992605667615136"
 
 [node name="GateChoiceModal" type="Control" parent="UI_Layer" unique_id=1125588243]
 visible = false
@@ -67,20 +253,33 @@ layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+metadata/_tc_uuid = "3535065050633567872"
 
 [node name="PanelContainer" type="PanelContainer" parent="UI_Layer/GateChoiceModal" unique_id=1751831490]
 layout_mode = 0
 offset_right = 198.0
 offset_bottom = 40.0
+metadata/_tc_uuid = "4728816949385437054"
 
 [node name="BtnEnterLudo" type="Button" parent="UI_Layer/GateChoiceModal/PanelContainer" unique_id=271663474]
 layout_mode = 2
 text = "Enter Ludo Orbit"
+metadata/_tc_uuid = "2474193504222632414"
 
 [node name="BtnStay Monopoly" type="Button" parent="UI_Layer/GateChoiceModal/PanelContainer" unique_id=1241895940]
 layout_mode = 2
 text = "Continue Monopoly Ring"
+metadata/_tc_uuid = "7396815431709579797"
 
 [node name="RollDiceButton" type="Button" parent="UI_Layer" unique_id=456225701]
 offset_right = 8.0
 offset_bottom = 8.0
+metadata/_tc_uuid = "7001753504419914207"
+
+[node name="BoardBackground" type="Sprite2D" parent="." unique_id=1412903469]
+unique_name_in_owner = true
+position = Vector2(540, 512)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_lmhrn")
+metadata/_tc_uuid = "7077060358658299073"
+metadata/_edit_lock_ = true
