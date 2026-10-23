@@ -1,0 +1,18 @@
+# Godot-specific ignores
+.godot/
+*.uid
+
+# Imported assets cache
+.import/
+
+# Text editor / IDE specific ignores
+.mono/
+.vs/
+.vscode/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# Build exports (if you export your game inside the project folder)
+export/

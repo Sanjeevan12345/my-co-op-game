@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://cfsciko14w4ju"]
+
+[ext_resource type="Texture2D" uid="uid://1ahtq4qjkfs5" path="res://assets/Board BG.jpeg" id="1_lmhrn"]
+[ext_resource type="Script" uid="uid://cgnc10rpo27ie" path="res://scripts/BoardNode.gd" id="2_pnm0s"]
+
+[node name="MainBoard" type="Node2D" unique_id=356345126]
+
+[node name="BoardBackground" type="Sprite2D" parent="." unique_id=674835067]
+texture_filter = 2
+position = Vector2(540, 540)
+texture = ExtResource("1_lmhrn")
+
+[node name="BoardNodes" type="Node2D" parent="." unique_id=1964501668]
+
+[node name="MonopolyNodes" type="Node2D" parent="BoardNodes" unique_id=207980008]
+
+[node name="Node_0" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1139784449]
+position = Vector2(931, 931)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_1" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1545759704]
+position = Vector2(917, 860)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_2" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1118745797]
+position = Vector2(948, 782)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_3" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1126072254]
+position = Vector2(914, 701)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_4" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=17341530]
+position = Vector2(914, 625)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_5" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=911046556]
+position = Vector2(905, 539)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_6" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1092582233]
+position = Vector2(914, 454)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="Node_7" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=547195179]
+position = Vector2(965, 381)
+script = ExtResource("2_pnm0s")
+property_name = "Rajasuva Yajna"
+
+[node name="LudoNodes" type="Node2D" parent="BoardNodes" unique_id=316801073]
+visible = false
+
+[node name="UI_Layer" type="CanvasLayer" parent="." unique_id=711087732]
+
+[node name="GateChoiceModal" type="Control" parent="UI_Layer" unique_id=1125588243]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="PanelContainer" type="PanelContainer" parent="UI_Layer/GateChoiceModal" unique_id=1751831490]
+layout_mode = 0
+offset_right = 198.0
+offset_bottom = 40.0
+
+[node name="BtnEnterLudo" type="Button" parent="UI_Layer/GateChoiceModal/PanelContainer" unique_id=271663474]
+layout_mode = 2
+text = "Enter Ludo Orbit"
+
+[node name="BtnStay Monopoly" type="Button" parent="UI_Layer/GateChoiceModal/PanelContainer" unique_id=1241895940]
+layout_mode = 2
+text = "Continue Monopoly Ring"
+
+[node name="RollDiceButton" type="Button" parent="UI_Layer" unique_id=456225701]
+offset_right = 8.0
+offset_bottom = 8.0
