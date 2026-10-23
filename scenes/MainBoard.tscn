@@ -8,8 +8,8 @@ metadata/scene_file_path = "res://scenes/MainBoard.tscn"
 
 [node name="BoardBackground" type="Sprite2D" parent="." unique_id=674835067]
 texture_filter = 2
-position = Vector2(540, 540)
-scale = Vector2(0.5263672, 0.524414)
+position = Vector2(782, 782)
+scale = Vector2(0.7636719, 0.7636719)
 texture = ExtResource("1_lmhrn")
 
 [node name="BoardNodes" type="Node2D" parent="." unique_id=1964501668]
@@ -22,7 +22,7 @@ script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_1" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1545759704]
-position = Vector2(932, 871)
+position = Vector2(917, 860)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
@@ -32,12 +32,12 @@ script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_3" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=1126072254]
-position = Vector2(936, 708)
+position = Vector2(914, 701)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
 [node name="Node_4" type="Marker2D" parent="BoardNodes/MonopolyNodes" unique_id=17341530]
-position = Vector2(934, 635)
+position = Vector2(914, 625)
 script = ExtResource("2_pnm0s")
 property_name = "Rajasuva Yajna"
 
